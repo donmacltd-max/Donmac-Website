@@ -1,0 +1,281 @@
+{
+  "slug": "e-mobility",
+  "order": 3,
+  "name": "Donmac e-Mobility",
+  "number": "03",
+  "tagline": "Accelerating the transition to electric transportation.",
+  "heroTitle": "Powering Zambia's electric future",
+  "heroText": "Electric vehicles, intelligent charging infrastructure and sustainable mobility solutions designed for Africa.",
+  "heroImage": "/images/mobility/riddara-video-poster.jpg",
+  "heroAlt": "Riddara battery-electric 4WD pickup driving off-road",
+  "heroVideo": "/video/riddara-4wd.mp4",
+  "cardImage": "/images/mobility/riddara-rd6.jpg",
+  "cardAlt": "Riddara RD6 electric pickup",
+  "keyCapabilities": [
+    "Electric vehicle sourcing and supply",
+    "AC and DC fast-charging infrastructure",
+    "Fleet electrification consulting"
+  ],
+  "introTitle": "Clean transportation for a cleaner Zambia.",
+  "intro": "Donmac e-Mobility is building Zambia's electric-mobility ecosystem: sourcing and supplying electric vehicles, designing and installing charging infrastructure, and helping fleets move to clean, cost-efficient transport. We are an RTSA-licensed motor dealer and a member of the Zambian Electric Mobility Innovation Alliance (ZEMIA).",
+  "introPoints": [
+    "RTSA-licensed motor dealer",
+    "Geely, Riddara (Geely Auto Group) and Tinbot vehicles",
+    "DC fast-charging capability up to 320 kW",
+    "Member of the Zambian Electric Mobility Innovation Alliance (ZEMIA)"
+  ],
+  "services": [
+    {
+      "id": "ev-sourcing",
+      "title": "Electric vehicle sourcing and supply",
+      "summary": "Battery-electric passenger and utility vehicles sourced from established manufacturers, registered and supported locally.",
+      "capabilities": [
+        "Vehicle selection advice",
+        "Importation and registration",
+        "Handover and driver orientation",
+        "Warranty support"
+      ],
+      "image": "/images/mobility/ev-test-drive.jpg",
+      "alt": "Electric vehicle interior during a test drive",
+      "icon": "car"
+    },
+    {
+      "id": "electric-pickups",
+      "title": "Electric pickup trucks and commercial vehicles",
+      "summary": "4WD electric pickups and light commercial vehicles for mines, farms, utilities and service fleets.",
+      "capabilities": [
+        "4WD battery-electric pickups",
+        "Light commercial vans",
+        "Payload and terrain matching",
+        "Fleet specification"
+      ],
+      "image": "/images/mobility/riddara-rd6.jpg",
+      "alt": "Riddara RD6 electric pickup",
+      "icon": "pickup"
+    },
+    {
+      "id": "electric-buses",
+      "title": "Electric buses and fleet solutions",
+      "summary": "Electric buses for staff transport, campuses and public transport, planned together with their charging.",
+      "capabilities": [
+        "Route and duty-cycle analysis",
+        "Bus specification",
+        "Depot charging design",
+        "Operator training"
+      ],
+      "image": "/images/mobility/electric-bus.jpg",
+      "alt": "Kiira Motors electric coach",
+      "icon": "bus"
+    },
+    {
+      "id": "two-three-wheelers",
+      "title": "Electric motorcycles and three-wheelers",
+      "summary": "Electric two- and three-wheelers for delivery, commuting and last-mile logistics.",
+      "capabilities": [
+        "E-motorcycles and scooters",
+        "Cargo three-wheelers",
+        "Battery-swap compatible models",
+        "Rider training"
+      ],
+      "image": "/images/mobility/tinbot-swap.jpg",
+      "alt": "Tinbot electric motorcycle beside a battery swap cabinet",
+      "icon": "motorbike",
+      "imageFit": "contain",
+      "imageBg": "#000000"
+    },
+    {
+      "id": "ac-dc-charging",
+      "title": "AC and DC EV charging infrastructure",
+      "summary": "Wall-box AC chargers and DC fast chargers for homes, workplaces, hotels and public sites.",
+      "capabilities": [
+        "Site electrical assessment",
+        "Charger supply and installation",
+        "Type 2 and CCS2 connectors",
+        "Commissioning and certification"
+      ],
+      "image": "/images/mobility/ac-chargers.jpg",
+      "alt": "AC wall-box chargers and a portable Type 2 charger",
+      "icon": "charger",
+      "imageFit": "contain",
+      "imageBg": "#CFDCEE"
+    },
+    {
+      "id": "hpc-charging",
+      "title": "High-power DC fast-charging systems",
+      "summary": "High-power charging solutions up to 320 kW for highways, fleets and heavy vehicles.",
+      "capabilities": [
+        "Up to 320 kW DC capability",
+        "Power-sharing cabinets",
+        "Grid and solar-plus-storage integration",
+        "Load management"
+      ],
+      "image": "/images/mobility/donmac-dc-charger.jpg",
+      "alt": "Donmac e-Mobility DC fast-charging station",
+      "icon": "bolt",
+      "imageFit": "contain"
+    },
+    {
+      "id": "charging-networks",
+      "title": "Public and private charging networks",
+      "summary": "Network planning and roll-out for destinations, corridors and private estates.",
+      "capabilities": [
+        "Site selection and demand study",
+        "Network design",
+        "Utility engagement",
+        "Phased roll-out"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "map"
+    },
+    {
+      "id": "depot-charging",
+      "title": "Depot and fleet charging",
+      "summary": "Overnight and opportunity charging for fleet depots, sized to vehicle schedules and site capacity.",
+      "capabilities": [
+        "Depot load studies",
+        "Smart charging schedules",
+        "Solar and storage integration",
+        "Driver and staff training"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "depot"
+    },
+    {
+      "id": "fleet-consulting",
+      "title": "Fleet electrification consulting",
+      "summary": "Evidence-based advice on which vehicles to electrify first, how and when.",
+      "capabilities": [
+        "Fleet energy assessment",
+        "Vehicle suitability study",
+        "Transition roadmap",
+        "Procurement support"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "chart"
+    },
+    {
+      "id": "tco-analysis",
+      "title": "EV feasibility and total cost of ownership analysis",
+      "summary": "Side-by-side cost modelling of electric and internal-combustion vehicles over their full life.",
+      "capabilities": [
+        "Energy and fuel cost modelling",
+        "Maintenance and residual value",
+        "Charging capex and opex",
+        "Sensitivity analysis"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "calc"
+    },
+    {
+      "id": "battery-swapping",
+      "title": "Battery-swapping solutions",
+      "summary": "Swap cabinets and compatible batteries that keep two- and three-wheeler fleets moving without waiting to charge.",
+      "capabilities": [
+        "Swap cabinet supply",
+        "Battery pool sizing",
+        "Site installation",
+        "Operating model advice"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "swap"
+    },
+    {
+      "id": "after-sales",
+      "title": "EV spare parts, accessories and after-sales support",
+      "summary": "Parts, accessories, portable chargers and technical support for the vehicles and chargers we supply.",
+      "capabilities": [
+        "Genuine spare parts",
+        "Charging cables and accessories",
+        "Diagnostics and servicing support",
+        "Warranty administration"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "wrench"
+    }
+  ],
+  "charging": {
+    "title": "EV charging infrastructure",
+    "text": "From a single wall-box to a high-power corridor site, Donmac designs, installs and supports charging that is safe, standards-based and ready to scale.",
+    "items": [
+      {
+        "title": "AC destination charging",
+        "text": "Type 2 wall-box and pedestal chargers for homes, offices, hotels and malls."
+      },
+      {
+        "title": "DC fast charging",
+        "text": "CCS2 DC chargers that add meaningful range during a short stop."
+      },
+      {
+        "title": "High-power charging up to 320 kW",
+        "text": "High-power DC solutions for corridors, fleets and heavy vehicles."
+      },
+      {
+        "title": "Charging network design",
+        "text": "Demand studies, site selection and grid capacity planning."
+      },
+      {
+        "title": "Installation and commissioning",
+        "text": "Electrical works, protection, earthing, testing and certified handover."
+      },
+      {
+        "title": "Operations and maintenance",
+        "text": "Preventive maintenance, fault response and uptime reporting."
+      },
+      {
+        "title": "Charging management and payments",
+        "text": "Charge point management software, user access and payment integration."
+      }
+    ]
+  },
+  "network": {
+    "title": "Building Zambia's charging network",
+    "text": "Donmac is planning a public DC fast-charging network for Zambia. Station locations, connector types, power ratings and live status will be published here as each site is commissioned.",
+    "status": "planned"
+  },
+  "fleet": {
+    "title": "Fleet electrification",
+    "text": "A structured, data-led path from a diesel fleet to an electric one, without disrupting operations.",
+    "steps": [
+      "Fleet energy assessment",
+      "Vehicle suitability studies",
+      "Route and range analysis",
+      "Charging infrastructure planning",
+      "Total cost of ownership modelling",
+      "Operational transition planning"
+    ]
+  },
+  "strengthsTitle": "Why fleets and drivers choose Donmac",
+  "strengths": [
+    {
+      "title": "Vehicles and charging together",
+      "text": "One partner for the vehicle, the charger and the electrical works behind it."
+    },
+    {
+      "title": "Solar-integrated charging",
+      "text": "Energy division expertise to pair charging with solar PV and battery storage."
+    },
+    {
+      "title": "Licensed and local",
+      "text": "RTSA-licensed motor dealer with a Lusaka-based technical team."
+    },
+    {
+      "title": "Standards-led",
+      "text": "Type 2 AC and CCS2 DC connector standards and certified installation."
+    }
+  ],
+  "featuredProjects": [],
+  "partnerGroup": "Electric mobility",
+  "cta": {
+    "title": "Request an EV quotation",
+    "text": "Tell us which vehicles or charging you need, how many and where. We will confirm availability, specifications and pricing."
+  },
+  "formVariant": "e-mobility",
+  "metaTitle": "Donmac e-Mobility | Electric Vehicles, EV Charging and Fleet Electrification in Zambia",
+  "metaDescription": "Electric pickups, buses and motorcycles, AC and DC fast charging up to 320 kW, charging networks and fleet electrification consulting in Zambia."
+}

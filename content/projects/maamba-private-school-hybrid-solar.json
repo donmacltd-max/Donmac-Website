@@ -1,0 +1,65 @@
+{
+  "slug": "maamba-private-school-hybrid-solar",
+  "order": 2,
+  "featured": true,
+  "title": "Maamba Private School hybrid solar system",
+  "client": "Maamba Private School",
+  "unit": "energy",
+  "industry": "education",
+  "type": "Hybrid solar and storage",
+  "location": "Maamba, Zambia",
+  "year": "",
+  "status": "Completed",
+  "summary": "A 57.20 kWp solar PV and 51.20 kWh lithium battery hybrid system providing reliable, clean power for Maamba Private School.",
+  "specs": [
+    {
+      "label": "PV array",
+      "value": "57.20 kWp"
+    },
+    {
+      "label": "Battery storage",
+      "value": "51.20 kWh lithium"
+    },
+    {
+      "label": "System",
+      "value": "Hybrid solar and storage"
+    },
+    {
+      "label": "Sector",
+      "value": "Education"
+    }
+  ],
+  "scope": [
+    "Load assessment and system design",
+    "Supply of PV modules, hybrid inverters and lithium batteries",
+    "Installation, protection and earthing",
+    "Testing, commissioning and handover"
+  ],
+  "challenge": "A school needs dependable power for classrooms, offices, ICT and lighting, without lessons being disrupted by supply interruptions or rising energy costs.",
+  "solution": "Donmac engineered a 57.20 kWp solar array with 51.20 kWh of lithium storage on hybrid inverters, so the school draws on solar by day and stored energy during outages.",
+  "outcomes": [
+    "Reliable power for teaching and administration",
+    "Lower ongoing energy costs",
+    "Cleaner energy for the school community"
+  ],
+  "images": [
+    {
+      "src": "/images/site/solar-array-hillside.jpg",
+      "alt": "Solar PV array installed by Donmac at Maamba Private School"
+    }
+  ],
+  "relatedServices": [
+    {
+      "label": "Commercial and industrial solar PV",
+      "href": "/energy#commercial-industrial-solar"
+    },
+    {
+      "label": "Battery energy storage systems",
+      "href": "/energy#battery-storage"
+    },
+    {
+      "label": "Hybrid solar and backup power",
+      "href": "/energy#hybrid-backup"
+    }
+  ]
+}

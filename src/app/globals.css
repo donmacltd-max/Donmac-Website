@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: light; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { @apply bg-white text-ink antialiased; font-feature-settings: 'ss01', 'cv11'; }
+  ::selection { background: #FF6600; color: #fff; }
+  :focus-visible { outline: 2.5px solid #FF6600; outline-offset: 3px; border-radius: 4px; }
+  [id] { scroll-margin-top: 8rem; }
+  h1, h2, h3, h4 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+}
+
+@layer components {
+  .container { width: 100%; max-width: 1360px; margin-inline: auto; padding-inline: clamp(1rem, 4vw, 2.5rem); }
+  .eyebrow { @apply inline-flex items-center gap-2 text-[0.72rem] font-bold uppercase tracking-[0.22em] text-brand-orange; }
+  .eyebrow::before { content: ''; @apply inline-block h-[2px] w-6 bg-current; }
+  .btn { @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full px-6 text-[0.95rem] font-semibold transition duration-200 ease-out; }
+  .btn-primary { @apply btn bg-brand-orange text-ink shadow-[0_8px_24px_-10px_rgba(255,102,0,.7)] hover:bg-[#ff7a1f] hover:-translate-y-px; }
+  .btn-red { @apply btn bg-brand-red text-white hover:bg-brand-deep; }
+  .btn-ghost-light { @apply btn border border-white/35 text-white hover:border-white hover:bg-white/10; }
+  .btn-ghost { @apply btn border border-ink/15 text-ink hover:border-brand-red hover:text-brand-red; }
+  .link-arrow { @apply inline-flex items-center gap-1.5 font-semibold text-brand-red underline-offset-4 hover:underline; }
+  .card { @apply rounded-2xl border border-mist-line bg-white shadow-card; }
+  .chip { @apply inline-flex items-center rounded-full border border-mist-line bg-mist px-3 py-1 text-xs font-semibold text-ink-soft; }
+  .dark-surface { background: radial-gradient(120% 90% at 85% 0%, #450609 0%, #2a0507 38%, #111318 78%); }
+  .field { @apply block w-full rounded-xl border border-ink/15 bg-white px-4 py-3 text-[0.95rem] text-ink placeholder:text-ink-mute transition focus:border-brand-orange focus:outline-none focus:ring-4 focus:ring-brand-orange/15; }
+  .label { @apply mb-1.5 block text-sm font-semibold text-ink; }
+}
+
+/* Hero photographic sequence */
+.hero-seq > * { opacity: 0; animation: heroFade 24s infinite; }
+.hero-seq > *:nth-child(1) { animation-delay: 0s; }
+.hero-seq > *:nth-child(2) { animation-delay: 8s; }
+.hero-seq > *:nth-child(3) { animation-delay: 16s; }
+@keyframes heroFade {
+  0% { opacity: 0; transform: scale(1.06); }
+  6% { opacity: 1; }
+  33% { opacity: 1; }
+  40% { opacity: 0; transform: scale(1); }
+  100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-seq > * { animation: none; opacity: 0; }
+  .hero-seq > *:first-child { opacity: 1; }
+}
+
+/* Scroll reveal: progressive, content is always visible without support */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal { animation: reveal linear both; animation-timeline: view(); animation-range: entry 0% entry 32%; }
+  }
+}
+@keyframes reveal { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+
+/* Circuit line motif */
+.circuit path { stroke-dasharray: 6 10; animation: dash 40s linear infinite; }
+@keyframes dash { to { stroke-dashoffset: -800; } }
+@media (prefers-reduced-motion: reduce) { .circuit path { animation: none; } }
+
+/* Article body */
+.article-body { @apply text-[1.075rem] leading-[1.8] text-ink-soft; }
+.article-body h2 { @apply mt-10 mb-3 text-2xl font-bold tracking-tight text-ink; }
+.article-body h3 { @apply mt-8 mb-2 text-xl font-bold text-ink; }
+.article-body p { @apply mb-5; }
+.article-body ul { @apply mb-6 list-disc space-y-2 pl-6 marker:text-brand-orange; }
+.article-body a { @apply font-semibold text-brand-red underline underline-offset-4; }
+.article-body strong { @apply text-ink; }
+
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+
+/* Accessible orange: #FF6600 is kept for fills and for text on dark surfaces;
+   small orange text on light backgrounds uses a deeper tone to meet WCAG AA (5.2:1). */
+.text-brand-orange, .eyebrow { color: #B84A00; }
+.dark-surface .text-brand-orange, .bg-ink .text-brand-orange, .dark-surface .eyebrow, .bg-ink .eyebrow, [data-dark] .eyebrow, [data-dark] .text-brand-orange { color: #FF6600; }

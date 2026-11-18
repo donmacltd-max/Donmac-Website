@@ -1,0 +1,223 @@
+{
+  "slug": "energy",
+  "order": 1,
+  "name": "Donmac Energy",
+  "number": "01",
+  "tagline": "Reliable energy solutions engineered for performance.",
+  "heroTitle": "Energy that powers progress",
+  "heroText": "Engineered solar, battery storage and power infrastructure solutions for a more resilient Zambia.",
+  "heroImage": "/images/site/solar-array-hillside.jpg",
+  "heroAlt": "Solar PV array installed by Donmac on a hillside site",
+  "heroVideo": "",
+  "cardImage": "/images/energy/rooftop-array-red-roof.jpg",
+  "cardAlt": "Rooftop solar PV array on a red tiled roof",
+  "keyCapabilities": [
+    "Solar EPC and hybrid systems",
+    "Battery energy storage",
+    "Rural electrification and O&M"
+  ],
+  "introTitle": "Secure, clean and reliable power, engineered to perform.",
+  "intro": "Donmac Energy designs, supplies, installs, commissions and maintains solar and energy-storage systems for businesses, institutions, mines and rural communities. From rooftop arrays to hybrid back-up systems and community mini-grids, every system is sized from measured loads, built with Tier-1 equipment and handed over with full documentation.",
+  "introPoints": [
+    "Tier-1 modules, hybrid inverters and LiFePO4 storage",
+    "ERB-licensed for renewable energy equipment",
+    "NCC Grade 4 Category E electrical contractor",
+    "Manufacturer warranties of up to 5 years on equipment"
+  ],
+  "showcaseVideo": {
+    "src": "/video/energy-install.mp4",
+    "poster": "/images/energy/install-video-poster.jpg",
+    "caption": "Hybrid inverter and lithium battery installation completed and labelled by Donmac."
+  },
+  "services": [
+    {
+      "id": "solar-epc",
+      "title": "Solar EPC",
+      "summary": "Turnkey engineering, procurement and construction of solar PV plants, with one accountable team from site survey to certified handover.",
+      "capabilities": [
+        "Site assessment and yield modelling",
+        "Electrical and structural design",
+        "Procurement of Tier-1 equipment",
+        "Installation, testing and commissioning"
+      ],
+      "image": "/images/site/solar-array-hillside.jpg",
+      "alt": "Ground-mounted solar array",
+      "icon": "sun"
+    },
+    {
+      "id": "commercial-industrial-solar",
+      "title": "Commercial and industrial solar PV",
+      "summary": "Rooftop and ground-mount systems that cut daytime grid and diesel costs for offices, hotels, factories and campuses.",
+      "capabilities": [
+        "Rooftop and carport arrays",
+        "Grid-tied and hybrid configurations",
+        "Export limiting and power quality",
+        "Energy savings reporting"
+      ],
+      "image": "/images/energy/rooftop-array-red-roof.jpg",
+      "alt": "Commercial rooftop solar array",
+      "icon": "building"
+    },
+    {
+      "id": "utility-scale-solar",
+      "title": "Utility-scale solar development and EPC",
+      "summary": "Development support and EPC delivery for large ground-mounted plants, drawing on the Group's engineering, procurement and project-governance backbone.",
+      "capabilities": [
+        "Pre-feasibility and layout studies",
+        "Grid connection engineering",
+        "Large-scale procurement and logistics",
+        "Construction management and QA/QC"
+      ],
+      "image": "/images/energy/solar-array-walkway.jpg",
+      "alt": "Rows of solar modules on a large array",
+      "icon": "grid"
+    },
+    {
+      "id": "battery-storage",
+      "title": "Battery energy storage systems",
+      "summary": "Lithium iron phosphate (LiFePO4) storage that shifts solar into the evening, rides through outages and reduces peak demand.",
+      "capabilities": [
+        "Low- and high-voltage battery systems",
+        "Rack-mounted and containerised BESS",
+        "Battery management integration",
+        "Capacity and autonomy design"
+      ],
+      "image": "/images/energy/battery-rack.jpg",
+      "alt": "Rack of lithium battery modules",
+      "icon": "battery"
+    },
+    {
+      "id": "hybrid-backup",
+      "title": "Hybrid solar and backup power",
+      "summary": "Hybrid inverter systems that combine solar, batteries, grid and generators so critical loads never go dark.",
+      "capabilities": [
+        "Hybrid inverter integration",
+        "Automatic changeover and generator start",
+        "UPS and standby power",
+        "Critical-load circuit design"
+      ],
+      "image": "/images/energy/hybrid-inverter-wall.jpg",
+      "alt": "Hybrid inverter and battery installation",
+      "icon": "bolt"
+    },
+    {
+      "id": "solar-water-pumping",
+      "title": "Solar water pumping",
+      "summary": "Solar-driven borehole and surface pumps for irrigation, livestock and community water supply, with no fuel to buy.",
+      "capabilities": [
+        "Hydraulic and borehole yield sizing",
+        "Submersible and surface pumps",
+        "Storage tank and reticulation design",
+        "Controller and protection supply"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "water"
+    },
+    {
+      "id": "rural-electrification",
+      "title": "Rural electrification and mini-grids",
+      "summary": "Solar systems and mini-grids for health posts, schools, civic centres and communities beyond the reach of the grid.",
+      "capabilities": [
+        "Community load surveys",
+        "Stand-alone and mini-grid systems",
+        "Distribution and metering",
+        "Local operator training"
+      ],
+      "image": "",
+      "alt": "",
+      "icon": "village"
+    },
+    {
+      "id": "power-distribution",
+      "title": "Power distribution and electrical infrastructure",
+      "summary": "LV distribution, protection and earthing that make energy systems safe, compliant and reliable.",
+      "capabilities": [
+        "DC and AC reticulation",
+        "Distribution boards and protection",
+        "Earthing and lightning protection",
+        "Cabling and containment"
+      ],
+      "image": "/images/energy/inverter-room.jpg",
+      "alt": "Electrical distribution and inverter room",
+      "icon": "plug"
+    },
+    {
+      "id": "operations-maintenance",
+      "title": "Operations, maintenance and remote monitoring",
+      "summary": "Preventive and corrective maintenance with remote monitoring, so systems keep delivering the yield they were designed for.",
+      "capabilities": [
+        "Remote performance monitoring",
+        "Scheduled preventive maintenance",
+        "Fault response and repairs",
+        "Warranty management"
+      ],
+      "image": "/images/energy/inverter-commissioning.jpg",
+      "alt": "Engineer commissioning inverters and battery systems",
+      "icon": "gauge"
+    },
+    {
+      "id": "feasibility-consulting",
+      "title": "Energy feasibility studies and technical consulting",
+      "summary": "Independent load analysis, system options and financial modelling that turn an energy problem into a bankable project.",
+      "capabilities": [
+        "Load profiling and energy audits",
+        "Technology and sizing options",
+        "Capex, opex and payback modelling",
+        "Tender and specification support"
+      ],
+      "image": "/images/site/site-meeting.jpg",
+      "alt": "Donmac engineers meeting a client on site",
+      "icon": "chart"
+    }
+  ],
+  "strengthsTitle": "Technical strengths",
+  "strengths": [
+    {
+      "title": "Solar PV engineering and system sizing",
+      "text": "Arrays, strings and inverters sized from measured loads and site irradiance."
+    },
+    {
+      "title": "Load analysis and energy modelling",
+      "text": "Load profiling and simulation to balance capex, autonomy and savings."
+    },
+    {
+      "title": "Hybrid inverter integration",
+      "text": "Solar, storage, grid and generator working as one controlled system."
+    },
+    {
+      "title": "Lithium battery storage",
+      "text": "LiFePO4 systems with integrated battery management and safe enclosures."
+    },
+    {
+      "title": "Electrical protection and earthing",
+      "text": "Protection coordination, surge, earthing and lightning protection to standard."
+    },
+    {
+      "title": "Installation, testing and commissioning",
+      "text": "Structured inspection, performance testing and certified handover."
+    },
+    {
+      "title": "Remote monitoring",
+      "text": "Online visibility of generation, storage and faults for faster response."
+    },
+    {
+      "title": "Preventive and corrective maintenance",
+      "text": "Planned servicing and responsive repairs to protect long-term yield."
+    }
+  ],
+  "featuredProjects": [
+    "kabanga-lithium-hybrid-solar",
+    "maamba-private-school-hybrid-solar",
+    "roma-guest-house-hybrid-backup",
+    "chipili-civic-centre-health-posts"
+  ],
+  "partnerGroup": "Renewable energy and power",
+  "cta": {
+    "title": "Request an energy project assessment",
+    "text": "Tell us about your site, loads and objectives. A Donmac engineer will review your requirement and recommend the right solution."
+  },
+  "formVariant": "energy",
+  "metaTitle": "Donmac Energy | Solar EPC, Battery Storage and Hybrid Power in Zambia",
+  "metaDescription": "Solar EPC, commercial and industrial solar PV, battery energy storage, hybrid back-up, solar water pumping and rural electrification across Zambia."
+}

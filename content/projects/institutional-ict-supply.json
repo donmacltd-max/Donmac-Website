@@ -1,0 +1,60 @@
+{
+  "slug": "institutional-ict-supply",
+  "order": 6,
+  "featured": false,
+  "title": "Institutional ICT supply and deployment",
+  "client": "Public institutions and development organisations",
+  "unit": "ict",
+  "industry": "government",
+  "type": "ICT procurement and deployment",
+  "location": "Zambia",
+  "year": "Ongoing",
+  "status": "Ongoing",
+  "summary": "Procurement, installation, configuration and end-to-end support of ICT equipment and software for public institutions and development organisations across Zambia.",
+  "specs": [
+    {
+      "label": "Scope",
+      "value": "Procurement, installation, configuration and support"
+    },
+    {
+      "label": "Equipment",
+      "value": "Computers, printers, networking, servers, UPS, software and digital security readers"
+    },
+    {
+      "label": "Channels",
+      "value": "HP Business Partner; authorised Axiz reseller"
+    }
+  ],
+  "scope": [
+    "Tender response and specification compliance",
+    "Supply of genuine, warranted equipment",
+    "Installation and configuration",
+    "After-sales and warranty support"
+  ],
+  "challenge": "Institutions need genuine, warranted technology delivered to specification and on time, with support after installation.",
+  "solution": "Donmac sources through authorised channels, checks every item against the specification and deploys and supports it on site.",
+  "outcomes": [
+    "Genuine, warranted equipment delivered to specification",
+    "Long-standing relationships with public-sector clients"
+  ],
+  "images": [
+    {
+      "src": "/images/ict/hp-delivery.jpg",
+      "alt": "Boxed HP equipment ready for delivery"
+    },
+    {
+      "src": "/images/ict/workstations.jpg",
+      "alt": "Desktop workstations"
+    }
+  ],
+  "relatedServices": [
+    {
+      "label": "ICT infrastructure and enterprise hardware",
+      "href": "/ict#ict-infrastructure"
+    },
+    {
+      "label": "ICT procurement, installation and maintenance",
+      "href": "/ict#procurement-maintenance"
+    }
+  ]
+}

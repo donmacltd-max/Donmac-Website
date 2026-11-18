@@ -1,0 +1,40 @@
+{
+  "slug": "construction",
+  "order": 5,
+  "capability": true,
+  "name": "General Construction",
+  "number": "05",
+  "tagline": "Buildings, roads and civil works delivered with discipline.",
+  "heroTitle": "Built for dependable infrastructure",
+  "heroText": "Integrated building and civil-works delivery for public, commercial, industrial and community infrastructure, with disciplined project management, quality control and HSE.",
+  "heroImage": "/images/site/team-site-safety.jpg",
+  "heroAlt": "Donmac site team in safety equipment",
+  "cardImage": "/images/site/team-site-safety.jpg",
+  "cardAlt": "Donmac construction team",
+  "keyCapabilities": ["Building construction", "Civil and road works", "Project management"],
+  "introTitle": "End-to-end construction capability.",
+  "intro": "Donmac coordinates design inputs, procurement, site mobilisation, civil and structural works, finishing, inspection and handover through one accountable delivery team. For road works, our scope can include formation and earthworks, subgrade and base preparation, drainage, surfacing, road furniture and routine or periodic maintenance, delivered to the applicable client and statutory requirements.",
+  "introPoints": ["NCC Grade 4 Category B: General Building and Housing", "NCC Grade 4 Category C: General Civil Engineering", "NCC Grade 4 Category R: General Roads and Earthworks", "Engineering Registration Board practising licence"],
+  "services": [
+    { "id": "building", "title": "Building construction", "summary": "Commercial, institutional and industrial buildings.", "capabilities": ["New build", "Extensions and refurbishment", "Finishes and services coordination"], "image": "", "alt": "", "icon": "building" },
+    { "id": "civil-works", "title": "Civil works", "summary": "Concrete, drainage and external works.", "capabilities": ["Foundations and slabs", "Paving and external works", "Retaining structures"], "image": "", "alt": "", "icon": "crane" },
+    { "id": "roads", "title": "Road construction", "summary": "Earthworks, pavement layers and surfacing.", "capabilities": ["Formation and earthworks", "Subgrade and base", "Surfacing and road furniture"], "image": "", "alt": "", "icon": "road" },
+    { "id": "road-rehabilitation", "title": "Road rehabilitation", "summary": "Upgrading, patching and maintenance.", "capabilities": ["Pothole and patch repairs", "Resealing", "Periodic maintenance"], "image": "", "alt": "", "icon": "wrench" },
+    { "id": "site-development", "title": "Site development", "summary": "Clearing, grading and platforms.", "capabilities": ["Clearing and grubbing", "Cut and fill", "Platform preparation"], "image": "", "alt": "", "icon": "grid" },
+    { "id": "drainage", "title": "Stormwater and drainage", "summary": "Culverts, channels and crossings.", "capabilities": ["Culverts", "Lined channels", "Drifts and crossings"], "image": "", "alt": "", "icon": "water" },
+    { "id": "project-management", "title": "Project management", "summary": "Planning, supervision and controls.", "capabilities": ["Programme control", "Site supervision", "Cost and quality reporting"], "image": "", "alt": "", "icon": "chart" },
+    { "id": "maintenance", "title": "Maintenance works", "summary": "Planned and corrective civil works.", "capabilities": ["Planned maintenance", "Corrective repairs", "Facilities upkeep"], "image": "", "alt": "", "icon": "gauge" }
+  ],
+  "strengthsTitle": "How we build",
+  "strengths": [
+    { "title": "Buildability first", "text": "Design inputs reviewed for practical, efficient construction." },
+    { "title": "Programme control", "text": "Planned sequencing and progress reporting to keep work on time." },
+    { "title": "Safety on every site", "text": "Risk assessments, method statements and supervised work." },
+    { "title": "Durable workmanship", "text": "QA/QC checkpoints from setting out to handover." }
+  ],
+  "featuredProjects": [],
+  "cta": { "title": "Discuss a construction project", "text": "Share your drawings, bill of quantities or scope and we will respond with a methodology and quotation." },
+  "formVariant": "construction",
+  "metaTitle": "General Construction | Buildings, Civil Works and Roads | Donmac Group",
+  "metaDescription": "NCC Grade 4 building, civil engineering and roads contractor delivering buildings, civil works, roads, drainage and maintenance in Zambia."
+}

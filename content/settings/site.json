@@ -1,0 +1,37 @@
+{
+  "name": "Donmac Group",
+  "legalName": "Donmac Limited",
+  "tagline": "Powering sustainable growth through technology, energy and innovation.",
+  "established": "2011",
+  "incorporated": "23 May 2011",
+  "registrationNumber": "92563",
+  "tpin": "1002054382",
+  "address": ["Plot 27, Nchenja Road", "Off Paseli Road, Northmead", "Lusaka, Zambia"],
+  "postal": "P.O. Box 310196, Lusaka, Zambia",
+  "phone": "+260 966 810170",
+  "phoneHref": "+260966810170",
+  "whatsapp": "260966810170",
+  "emailSales": "sales@donmacltd.com",
+  "emailInfo": "info@donmacltd.com",
+  "website": "www.donmacltd.com",
+  "hours": "Monday to Friday, 08:00 to 17:00 (CAT)",
+  "mapQuery": "Nchenja Road, Northmead, Lusaka, Zambia",
+  "social": { "linkedin": "", "facebook": "", "x": "", "youtube": "" },
+  "home": {
+    "heroEyebrow": "Zambian-owned since 2011",
+    "heroTitle": "Powering Zambia's sustainable future",
+    "heroSubtitle": "Engineering tomorrow through clean energy, technology, electric mobility and global sourcing.",
+    "heroText": "Since 2011, Donmac has delivered integrated technology, engineering and infrastructure solutions that help businesses, institutions and communities grow sustainably.",
+    "heroImages": [
+      { "src": "/images/site/solar-array-hillside.jpg", "alt": "Ground-mounted solar PV array installed by Donmac on a hillside site in Zambia" },
+      { "src": "/images/mobility/riddara-rd6.jpg", "alt": "Riddara RD6 battery-electric 4WD pickup" },
+      { "src": "/images/site/team-handover.jpg", "alt": "Donmac engineers and client team on site" }
+    ],
+    "stats": [
+      { "value": "2011", "label": "Year established" },
+      { "value": "4", "label": "Principal business divisions" },
+      { "value": "100%", "label": "Zambian-owned" },
+      { "value": "Nationwide", "label": "Delivery capability" }
+    ]
+  }
+}

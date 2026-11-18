@@ -1,0 +1,64 @@
+{
+  "slug": "roma-guest-house-hybrid-backup",
+  "order": 3,
+  "featured": false,
+  "title": "Roma Guest House hybrid back-up system",
+  "client": "Maamba Energy Limited",
+  "unit": "energy",
+  "industry": "commercial",
+  "type": "Hybrid solar and storage",
+  "location": "Zambia",
+  "year": "2024",
+  "status": "Completed",
+  "summary": "A hybrid solar back-up system complete with PV panels, inverters and lithium batteries, providing continuous and reliable power for a guest house.",
+  "specs": [
+    {
+      "label": "PV array",
+      "value": "17.4 kWp"
+    },
+    {
+      "label": "Battery storage",
+      "value": "40.96 kWh lithium"
+    },
+    {
+      "label": "System",
+      "value": "Hybrid solar back-up"
+    },
+    {
+      "label": "Sector",
+      "value": "Hospitality"
+    }
+  ],
+  "scope": [
+    "System design and sizing",
+    "Supply of PV modules, inverters and lithium batteries",
+    "Installation and protection",
+    "Testing and commissioning"
+  ],
+  "challenge": "Guest accommodation needs uninterrupted power for lighting, refrigeration and comfort, even when grid supply is interrupted.",
+  "solution": "Donmac delivered a 17.4 kWp solar array with 40.96 kWh of lithium storage on hybrid inverters, so the building runs on solar by day and on stored energy during outages.",
+  "outcomes": [
+    "Continuous power for guests and staff",
+    "Reduced reliance on generator back-up"
+  ],
+  "images": [
+    {
+      "src": "/images/energy/rooftop-array-red-roof.jpg",
+      "alt": "Rooftop solar array on a red tiled roof"
+    },
+    {
+      "src": "/images/energy/rooftop-installer.jpg",
+      "alt": "Donmac technician on a rooftop solar installation"
+    }
+  ],
+  "relatedServices": [
+    {
+      "label": "Hybrid solar and backup power",
+      "href": "/energy#hybrid-backup"
+    },
+    {
+      "label": "Commercial and industrial solar PV",
+      "href": "/energy#commercial-industrial-solar"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "tinbot-electric-motorcycle",
+  "order": 2,
+  "make": "Tinbot",
+  "model": "Electric motorcycle (battery-swap compatible)",
+  "group": "",
+  "category": "Motorcycle",
+  "drivetrain": "",
+  "batteryKwh": null,
+  "rangeKm": null,
+  "testCycle": "",
+  "motorPower": "",
+  "torque": "",
+  "charging": "Battery swapping",
+  "payload": "",
+  "towing": "",
+  "summary": "An electric motorcycle designed for battery swapping, suited to delivery, commuting and last-mile logistics.",
+  "images": [
+    {
+      "src": "/images/mobility/tinbot-swap.jpg",
+      "alt": "Tinbot electric motorcycle beside a battery swap cabinet"
+    }
+  ],
+  "brochure": "",
+  "availability": "Enquire for availability and pricing",
+  "imageBg": "#000000"
+}

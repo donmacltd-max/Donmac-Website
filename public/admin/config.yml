@@ -1,0 +1,220 @@
+# Decap CMS configuration for the Donmac Group website.
+# Staff edit content here; each save becomes a Git commit and the host rebuilds the site automatically.
+backend:
+  name: github
+  repo: YOUR-GITHUB-ORG/donmac-website   # <-- set to the real repository
+  branch: main
+  base_url: https://www.donmacltd.com    # OAuth provider endpoint (see docs/DEPLOYMENT.md)
+  auth_endpoint: api/auth
+
+publish_mode: editorial_workflow   # Drafts -> In review -> Ready -> Published
+media_folder: public/images/uploads
+public_folder: /images/uploads
+site_url: https://www.donmacltd.com
+logo_url: /images/brand/donmac-logo-primary.png
+locale: en
+
+
+collections:
+  - name: settings
+    label: Site settings
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Contact details and homepage
+        file: content/settings/site.json
+        fields:
+          - { label: Phone, name: phone, widget: string }
+          - { label: Phone (digits for links), name: phoneHref, widget: string }
+          - { label: WhatsApp number (digits), name: whatsapp, widget: string }
+          - { label: Sales email, name: emailSales, widget: string }
+          - { label: Info email, name: emailInfo, widget: string }
+          - { label: Address lines, name: address, widget: list }
+          - { label: Postal address, name: postal, widget: string }
+          - { label: Office hours, name: hours, widget: string }
+          - { label: Map search text, name: mapQuery, widget: string }
+          - label: Social media links (leave blank to hide)
+            name: social
+            widget: object
+            fields:
+              - { label: LinkedIn URL, name: linkedin, widget: string, required: false }
+              - { label: Facebook URL, name: facebook, widget: string, required: false }
+              - { label: X URL, name: x, widget: string, required: false }
+              - { label: YouTube URL, name: youtube, widget: string, required: false }
+          - label: Homepage
+            name: home
+            widget: object
+            fields:
+              - { label: Eyebrow, name: heroEyebrow, widget: string }
+              - { label: Headline, name: heroTitle, widget: string }
+              - { label: Supporting headline, name: heroSubtitle, widget: string }
+              - { label: Supporting copy, name: heroText, widget: text }
+              - { label: Hero images, name: heroImages, widget: list, fields: [{ label: Image, name: src, widget: image }, { label: Alt text, name: alt, widget: string }] }
+              - { label: Key statistics (verified only), name: stats, widget: list, fields: [{ label: Value, name: value, widget: string }, { label: Label, name: label, widget: string }] }
+      - name: partners
+        label: Partners and brands
+        file: content/settings/partners.json
+        fields:
+          - { label: Authorised partnerships (verified certificates only), name: authorised, widget: list, fields: [{ label: Name, name: name, widget: string }, { label: Detail, name: detail, widget: string }] }
+          - { label: Brand groups (supplied and integrated), name: groups, widget: list, fields: [{ label: Group title, name: title, widget: string }, { label: Brands, name: brands, widget: list }] }
+          - { label: Note, name: note, widget: text }
+      - name: company
+        label: Company (about, values, timeline, compliance)
+        file: content/settings/company.json
+        fields:
+          - { label: Purpose, name: purpose, widget: text }
+          - { label: Positioning statement, name: positioning, widget: text }
+          - { label: Vision, name: vision, widget: text }
+          - { label: Mission, name: mission, widget: text }
+          - { label: Values, name: values, widget: list, fields: [{ label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }] }
+          - { label: Timeline (verified milestones only), name: timeline, widget: list, fields: [{ label: Year, name: year, widget: string }, { label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }] }
+          - { label: Why Donmac, name: whyDonmac, widget: list, fields: [{ label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }, { label: Icon, name: icon, widget: string }] }
+          - { label: Compliance register, name: compliance, widget: list, fields: [{ label: Body, name: body, widget: string }, { label: Item, name: item, widget: string }] }
+          - { label: Selected clients, name: selectedClients, widget: list }
+          - { label: ICT client references (approved for publication), name: ictReferences, widget: list }
+      - name: industries
+        label: Industries
+        file: content/settings/industries.json
+        fields:
+          - label: Industries
+            name: items
+            widget: list
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Short name, name: short, widget: string }
+              - { label: Icon, name: icon, widget: string }
+              - { label: Challenge, name: challenge, widget: text }
+              - { label: Solutions, name: solutions, widget: list }
+              - { label: Related units (slugs), name: units, widget: list }
+              - { label: Related projects (slugs), name: projects, widget: list }
+
+  - name: units
+    label: Business divisions
+    folder: content/units
+    format: json
+    create: false
+    identifier_field: name
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Tagline, name: tagline, widget: string }
+      - { label: Hero title, name: heroTitle, widget: string }
+      - { label: Hero text, name: heroText, widget: text }
+      - { label: Hero image, name: heroImage, widget: image }
+      - { label: Hero image alt text, name: heroAlt, widget: string }
+      - { label: Card image, name: cardImage, widget: image }
+      - { label: Key capabilities (3), name: keyCapabilities, widget: list }
+      - { label: Intro title, name: introTitle, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: Intro points, name: introPoints, widget: list }
+      - label: Services
+        name: services
+        widget: list
+        fields:
+          - { label: ID (no spaces), name: id, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Summary, name: summary, widget: text }
+          - { label: Capabilities, name: capabilities, widget: list, field: { label: Capability, name: c, widget: string } }
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Image fit (contain for product photos on white), name: imageFit, widget: select, options: [cover, contain], required: false }
+          - { label: Background colour behind a contained image (e.g. #000000), name: imageBg, widget: string, required: false }
+          - { label: Image description (alt text), name: alt, widget: string, required: false }
+          - { label: Icon name (used when no image), name: icon, widget: string, required: false }
+          - { label: Link (optional), name: link, widget: string, required: false }
+      - { label: Strengths title, name: strengthsTitle, widget: string }
+      - { label: Strengths, name: strengths, widget: list, fields: [{ label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }] }
+      - { label: Featured project slugs, name: featuredProjects, widget: list, required: false }
+      - { label: Call to action, name: cta, widget: object, fields: [{ label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }] }
+      - { label: SEO title, name: metaTitle, widget: string }
+      - { label: SEO description, name: metaDescription, widget: text }
+
+  - name: projects
+    label: Projects
+    folder: content/projects
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Slug (URL), name: slug, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: Featured on homepage, name: featured, widget: boolean, default: false }
+      - { label: Title, name: title, widget: string }
+      - { label: Client (only if disclosure is permitted), name: client, widget: string }
+      - { label: Business division, name: unit, widget: select, options: [energy, ict, e-mobility, sourcing, construction, telecommunications] }
+      - { label: Industry, name: industry, widget: select, options: [government, mining, agriculture, manufacturing, healthcare, education, commercial, development, transport] }
+      - { label: Project type, name: type, widget: string }
+      - { label: Location, name: location, widget: string }
+      - { label: Year, name: year, widget: string }
+      - { label: Status, name: status, widget: string }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Technical specifications (verified figures only), name: specs, widget: list, fields: [{ label: Label, name: label, widget: string }, { label: Value, name: value, widget: string }] }
+      - { label: Scope, name: scope, widget: list }
+      - { label: Challenge, name: challenge, widget: text }
+      - { label: Solution, name: solution, widget: text }
+      - { label: Outcomes (verified only), name: outcomes, widget: list }
+      - { label: Images, name: images, widget: list, fields: [{ label: Image, name: src, widget: image }, { label: Alt text, name: alt, widget: string }] }
+      - { label: Related services, name: relatedServices, widget: list, fields: [{ label: Label, name: label, widget: string }, { label: Link, name: href, widget: string }] }
+
+  - name: vehicles
+    label: Vehicle catalogue
+    folder: content/vehicles
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: model
+    fields:
+      - { label: Slug, name: slug, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: Make, name: make, widget: string }
+      - { label: Model, name: model, widget: string }
+      - { label: Manufacturer group, name: group, widget: string, required: false }
+      - { label: Category, name: category, widget: select, options: [Pickup, SUV, Sedan, Van, Bus, Truck, Motorcycle, Three-wheeler] }
+      - { label: Drivetrain, name: drivetrain, widget: string, required: false }
+      - { label: Battery (kWh), name: batteryKwh, widget: number, value_type: float, required: false }
+      - { label: Range (km), name: rangeKm, widget: number, required: false }
+      - { label: Range test cycle (e.g. WLTP, CLTC), name: testCycle, widget: string, required: false }
+      - { label: Motor power, name: motorPower, widget: string, required: false }
+      - { label: Torque, name: torque, widget: string, required: false }
+      - { label: Charging capability, name: charging, widget: string, required: false }
+      - { label: Payload, name: payload, widget: string, required: false }
+      - { label: Towing capacity, name: towing, widget: string, required: false }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Images (exterior and interior), name: images, widget: list, fields: [{ label: Image, name: src, widget: image }, { label: Alt text, name: alt, widget: string }] }
+      - { label: Image background colour (e.g. #000000), name: imageBg, widget: string, required: false }
+      - { label: Brochure (PDF), name: brochure, widget: file, required: false }
+      - { label: Availability note, name: availability, widget: string }
+
+  - name: leadership
+    label: Leadership
+    folder: content/leadership
+    format: json
+    create: true
+    identifier_field: name
+    fields:
+      - { label: Slug, name: slug, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: Name, name: name, widget: string }
+      - { label: Role, name: role, widget: string }
+      - { label: Approved photo, name: photo, widget: image }
+      - { label: Biography, name: bio, widget: text }
+      - { label: Message title, name: messageTitle, widget: string, required: false }
+      - { label: Message paragraphs, name: message, widget: list, required: false }
+
+  - name: insights
+    label: News and insights
+    folder: content/insights
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publication date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Category, name: category, widget: select, options: ["Corporate announcements", "Project milestones", "Renewable energy insights", "Electric mobility developments", "ICT and digital transformation", "Technology partnerships", "Industry events", "Thought leadership"] }
+      - { label: Author, name: author, widget: string }
+      - { label: Featured image, name: image, widget: image }
+      - { label: Image alt text, name: imageAlt, widget: string }
+      - { label: Excerpt (SEO description), name: excerpt, widget: text }
+      - { label: Draft (hidden from site), name: draft, widget: boolean, default: false, required: false }
+      - { label: Body, name: body, widget: markdown }

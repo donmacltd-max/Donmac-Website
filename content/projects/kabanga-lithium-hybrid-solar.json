@@ -1,0 +1,74 @@
+{
+  "slug": "kabanga-lithium-hybrid-solar",
+  "order": 1,
+  "featured": true,
+  "title": "Kabanga Lithium Project hybrid solar system",
+  "client": "Maamba Energy Limited",
+  "unit": "energy",
+  "industry": "mining",
+  "type": "Hybrid solar and storage",
+  "location": "Kabanga Lithium Project, Zambia",
+  "year": "2024 to 2025",
+  "status": "Commissioned 2025",
+  "summary": "Design, supply, installation, testing and commissioning of a hybrid solar PV and lithium battery system for Maamba Energy's lithium project at Kabanga.",
+  "specs": [
+    {
+      "label": "PV array",
+      "value": "14.04 kWp"
+    },
+    {
+      "label": "Battery storage",
+      "value": "51.2 kWh lithium (LiFePO4)"
+    },
+    {
+      "label": "Inverter",
+      "value": "20 kW three-phase hybrid"
+    },
+    {
+      "label": "Scope",
+      "value": "Design, supply, install, test and commission"
+    }
+  ],
+  "scope": [
+    "Site assessment and load analysis",
+    "PV, inverter and battery system design",
+    "Supply of PV modules, hybrid inverter and lithium batteries",
+    "Mounting, cabling, protection and earthing",
+    "Testing, commissioning and handover"
+  ],
+  "challenge": "Mining project sites need dependable power for offices and operations, often in locations where grid supply is limited and diesel generation is costly to run and maintain.",
+  "solution": "Donmac engineered a three-phase hybrid system combining a 14.04 kWp solar array with 51.2 kWh of lithium storage, so solar energy carries the daytime load and stored energy covers the evening and outages.",
+  "outcomes": [
+    "Reduced dependence on diesel generation",
+    "Improved power reliability for site operations",
+    "Lower ongoing energy costs"
+  ],
+  "images": [
+    {
+      "src": "/images/projects/maamba-team.jpg",
+      "alt": "Donmac team with the Maamba Energy team"
+    },
+    {
+      "src": "/images/energy/inverter-commissioning.jpg",
+      "alt": "Donmac engineer commissioning inverters and battery systems"
+    },
+    {
+      "src": "/images/energy/solar-array-walkway.jpg",
+      "alt": "Technician walking along a row of solar modules"
+    }
+  ],
+  "relatedServices": [
+    {
+      "label": "Hybrid solar and backup power",
+      "href": "/energy#hybrid-backup"
+    },
+    {
+      "label": "Battery energy storage systems",
+      "href": "/energy#battery-storage"
+    },
+    {
+      "label": "Operations and maintenance",
+      "href": "/energy#operations-maintenance"
+    }
+  ]
+}

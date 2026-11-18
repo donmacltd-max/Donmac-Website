@@ -1,0 +1,40 @@
+{
+  "slug": "telecommunications",
+  "order": 6,
+  "capability": true,
+  "name": "Telecommunications",
+  "number": "06",
+  "tagline": "Cell tower EPC and lifecycle maintenance.",
+  "heroTitle": "Infrastructure that keeps networks connected",
+  "heroText": "Cell tower EPC and lifecycle maintenance for reliable mobile-network infrastructure, integrating civil, structural, electrical, power and site-support disciplines.",
+  "heroImage": "/images/energy/inverter-room.jpg",
+  "heroAlt": "Power and electrical equipment room",
+  "cardImage": "/images/energy/inverter-room.jpg",
+  "cardAlt": "Power equipment",
+  "keyCapabilities": ["Tower-site EPC", "Power systems and earthing", "Preventive and corrective O&M"],
+  "introTitle": "Turnkey tower-site delivery.",
+  "intro": "Our telecommunications capability brings together site preparation, foundations, tower erection, equipment-support infrastructure, power systems, earthing and lightning protection, testing and documented handover. For operational sites, Donmac provides scheduled inspections, structural and electrical checks, power-system servicing, fault response, component replacement, site housekeeping and maintenance reporting to support network uptime.",
+  "introPoints": ["NCC Grade 4 Category E: Electrical and Telecommunication", "ZICTA-licensed dealer in electronic communication equipment", "Solar, battery and backup power expertise from Donmac Energy", "Single local interface for EPC and maintenance"],
+  "services": [
+    { "id": "site-acquisition", "title": "Site acquisition support", "summary": "Surveys, access and readiness.", "capabilities": ["Site surveys", "Access arrangements", "Readiness reports"], "image": "", "alt": "", "icon": "map" },
+    { "id": "civil-foundation", "title": "Civil and foundation works", "summary": "Tower bases, shelters and fencing.", "capabilities": ["Tower foundations", "Equipment plinths and shelters", "Security fencing"], "image": "", "alt": "", "icon": "crane" },
+    { "id": "tower-erection", "title": "Tower erection", "summary": "Lattice and monopole structures.", "capabilities": ["Lattice towers", "Monopoles", "Structural checks"], "image": "", "alt": "", "icon": "tower" },
+    { "id": "power-systems", "title": "Power systems", "summary": "Grid, solar, batteries and backup.", "capabilities": ["Grid connection", "Solar and battery hybrids", "Generator backup"], "image": "", "alt": "", "icon": "battery" },
+    { "id": "rf-support", "title": "RF installation support", "summary": "Antennas, feeders and microwave.", "capabilities": ["Antenna mounting", "Feeder runs", "Microwave dish support"], "image": "", "alt": "", "icon": "network" },
+    { "id": "electrical-earthing", "title": "Electrical and earthing", "summary": "Distribution, grounding and lightning protection.", "capabilities": ["Distribution boards", "Earthing systems", "Lightning protection"], "image": "", "alt": "", "icon": "plug" },
+    { "id": "testing-handover", "title": "Testing and handover", "summary": "Inspection, punch-list and as-builts.", "capabilities": ["Inspection and testing", "Punch-list closure", "As-built documentation"], "image": "", "alt": "", "icon": "check" },
+    { "id": "om-services", "title": "O&M services", "summary": "Preventive and corrective maintenance.", "capabilities": ["Scheduled inspections", "Power-system servicing", "Fault response"], "image": "", "alt": "", "icon": "wrench" }
+  ],
+  "strengthsTitle": "One interface, every discipline",
+  "strengths": [
+    { "title": "Multi-discipline delivery", "text": "Civil, structural, electrical and power works under one team." },
+    { "title": "Power expertise", "text": "Hybrid solar and storage experience to reduce site diesel use." },
+    { "title": "Documented quality", "text": "Inspection records, punch-lists and as-built packs at handover." },
+    { "title": "Uptime focus", "text": "Maintenance reporting and fault response that protect availability." }
+  ],
+  "featuredProjects": [],
+  "cta": { "title": "Discuss a telecom site requirement", "text": "Tell us about your tower rollout or maintenance programme and our team will respond with scope and pricing." },
+  "formVariant": "telecommunications",
+  "metaTitle": "Telecommunications | Cell Tower EPC and Maintenance | Donmac Group",
+  "metaDescription": "Cell tower EPC, civil and foundation works, tower erection, power systems, earthing, testing and O&M for mobile network infrastructure in Zambia."
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "lmmu-solar-car-park-lighting",
+  "order": 5,
+  "featured": true,
+  "title": "LMMU solar car-park lighting",
+  "client": "Levy Mwanawasa Medical University",
+  "unit": "energy",
+  "industry": "education",
+  "type": "Solar lighting",
+  "location": "Lusaka, Zambia",
+  "year": "2022 to 2023",
+  "status": "Completed",
+  "summary": "Design, supply, installation and commissioning of single- and dual-arm commercial solar street lighting at Levy Mwanawasa Medical University.",
+  "specs": [
+    {
+      "label": "System",
+      "value": "Commercial solar street lighting"
+    },
+    {
+      "label": "Configuration",
+      "value": "Single-arm and dual-arm poles"
+    },
+    {
+      "label": "Areas",
+      "value": "Public hub and academic wing car parks"
+    }
+  ],
+  "scope": [
+    "Lighting design",
+    "Supply of solar street lights and poles",
+    "Foundations and installation",
+    "Commissioning"
+  ],
+  "challenge": "A busy university campus needs safe, well-lit car parks and walkways without adding to grid demand or electricity bills.",
+  "solution": "Donmac designed and installed off-grid commercial solar street lights in single- and dual-arm configurations, each with its own panel and battery.",
+  "outcomes": [
+    "Safer, well-lit car parks after dark",
+    "Lighting that runs independently of the grid",
+    "No ongoing electricity cost for the lighting"
+  ],
+  "images": [
+    {
+      "src": "/images/projects/lmmu-street-light-1.jpg",
+      "alt": "Dual-arm solar street light at LMMU"
+    },
+    {
+      "src": "/images/projects/lmmu-street-light-2.jpg",
+      "alt": "Solar street light pole in a campus car park"
+    },
+    {
+      "src": "/images/projects/lmmu-street-light-install.jpg",
+      "alt": "Technician installing a solar street light"
+    }
+  ],
+  "relatedServices": [
+    {
+      "label": "Commercial and industrial solar PV",
+      "href": "/energy#commercial-industrial-solar"
+    },
+    {
+      "label": "Rural electrification and mini-grids",
+      "href": "/energy#rural-electrification"
+    }
+  ]
+}

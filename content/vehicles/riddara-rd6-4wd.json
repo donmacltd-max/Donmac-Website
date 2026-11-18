@@ -1,0 +1,25 @@
+{
+  "slug": "riddara-rd6-4wd",
+  "order": 1,
+  "make": "Riddara",
+  "model": "RD6 4WD (86 kWh)",
+  "group": "Geely Auto Group",
+  "category": "Pickup",
+  "drivetrain": "4WD",
+  "batteryKwh": 86,
+  "rangeKm": 455,
+  "testCycle": "",
+  "motorPower": "",
+  "torque": "",
+  "charging": "",
+  "payload": "",
+  "towing": "",
+  "summary": "A 100% battery-electric, four-wheel-drive pickup for mines, farms, utilities and corporate fleets.",
+  "images": [
+    { "src": "/images/mobility/riddara-rd6.jpg", "alt": "Riddara RD6 electric pickup, exterior" },
+    { "src": "/images/mobility/riddara-rd6-colours.jpg", "alt": "Riddara RD6 colour and interior options" },
+    { "src": "/images/mobility/riddara-showcase.jpg", "alt": "Riddara RD6 on display" }
+  ],
+  "brochure": "",
+  "availability": "Enquire for availability and pricing"
+}

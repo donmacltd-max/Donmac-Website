@@ -1,0 +1,85 @@
+{
+  "purpose": "We exist to accelerate Zambia's transition to clean energy, a connected economy and sustainable mobility, engineering reliable solutions that improve lives, empower industry and protect the environment.",
+  "positioning": "A trusted national partner for the energy transition, digital infrastructure and clean mobility, delivering measurable impact for clients, communities and investors.",
+  "vision": "To be the leading and most trusted provider of renewable energy, ICT, electric mobility and specialized sourcing solutions in Zambia and the region, recognised for engineering excellence and transformative impact.",
+  "mission": "To deliver efficient, uncompromised and client-focused solutions that exceed expectations, powering sustainable growth through technology, energy and innovation while improving quality of life and creating local employment.",
+  "values": [
+    { "title": "Excellence", "text": "Uncompromising quality across every product and service we deliver." },
+    { "title": "Customer-centric", "text": "Clients are at the heart of every decision and every solution." },
+    { "title": "Sustainability", "text": "Advancing clean energy and environmentally responsible practice for a better future." },
+    { "title": "Innovation", "text": "Embracing new technologies and inventive ways to add value." },
+    { "title": "Integrity", "text": "Honesty, transparency and ethics in every interaction." },
+    { "title": "Collaboration", "text": "Partnership and teamwork that turn collective strength into results." },
+    { "title": "Adaptability", "text": "Agile, flexible and quick to respond to evolving client needs and industry trends." }
+  ],
+  "timeline": [
+    { "year": "2011", "title": "Foundation", "text": "Donmac Limited is incorporated on 23 May 2011 as a Zambian citizen-owned enterprise focused on quality, client-centred supply and service." },
+    { "year": "2014", "title": "ICT and authorised partnerships", "text": "Becomes an HP partner and authorised reseller, and an authorised distributor of Thales (Gemalto) digital identity and security solutions." },
+    { "year": "2018", "title": "Renewable energy scale-up", "text": "Expands solar EPC and standby power capability, working with global inverter, battery and module manufacturers." },
+    { "year": "2022", "title": "Flagship public-sector delivery", "text": "Delivers commercial solar car-park lighting for Levy Mwanawasa Medical University, alongside work for other public institutions." },
+    { "year": "2024", "title": "Mining and community energy", "text": "Delivers hybrid solar systems for Maamba Energy and the Kabanga Lithium Project, and rural electrification for Chipili Town Council's civic centre and five health posts." },
+    { "year": "2026", "title": "Donmac Group", "text": "Consolidates into a four-division group (Energy, ICT, e-Mobility and Specialized Sourcing), positioned for regional growth and investment." }
+  ],
+  "whyDonmac": [
+    { "title": "Engineering-led delivery", "text": "Qualified engineers lead every project, from load analysis and system design to commissioning and certified handover.", "icon": "engineering" },
+    { "title": "End-to-end solutions", "text": "Design, supply, installation, commissioning and after-sales support delivered in-house, reducing client risk and interfaces.", "icon": "cycle" },
+    { "title": "Global technology sourcing", "text": "Direct access to leading manufacturers in ICT, energy storage, inverters and electric mobility, with quality checked before it ships.", "icon": "globe" },
+    { "title": "Proven project experience", "text": "A documented record of commissioned work for mining companies, a national medical university and a town council.", "icon": "check" },
+    { "title": "Quality and safety assurance", "text": "Tier-1 components, manufacturer-approved methods, structured QA/QC checkpoints and safe systems of work on every site.", "icon": "shield" },
+    { "title": "Local expertise, lasting support", "text": "A Lusaka-based team that stays with the asset: monitoring, maintenance, warranty management and fast response.", "icon": "pin" }
+  ],
+  "methodology": [
+    { "step": "01", "title": "Consult and assess", "text": "Requirements, site survey, feasibility and needs analysis." },
+    { "step": "02", "title": "Design and propose", "text": "Engineering design, specification, costing and proposal." },
+    { "step": "03", "title": "Procure and mobilise", "text": "Sourcing, quality checks, logistics and site mobilisation." },
+    { "step": "04", "title": "Install and commission", "text": "Construction, testing, commissioning and certified handover." },
+    { "step": "05", "title": "Support and maintain", "text": "O&M, monitoring, warranty and after-sales service." }
+  ],
+  "capabilities": [
+    { "title": "Design and engineering", "text": "System sizing, electrical and structural design, load analysis and technical documentation." },
+    { "title": "Installation and construction", "text": "Civil, mechanical and electrical works, mounting, cabling, earthing and protection." },
+    { "title": "Testing and commissioning", "text": "Inspection, performance verification and certified handover to client standards." },
+    { "title": "Procurement and logistics", "text": "Global sourcing, quality control, freight, clearing and on-site delivery." },
+    { "title": "Operations and maintenance", "text": "Preventive and corrective maintenance, monitoring and after-sales support." },
+    { "title": "Integration", "text": "Multi-technology delivery across energy, ICT and mobility for complex programmes." }
+  ],
+  "hse": [
+    { "title": "Safe systems of work", "text": "Risk assessments, method statements, PPE and trained supervision on every project." },
+    { "title": "Compliant operations", "text": "Workers' Compensation cover and adherence to Zambian occupational health and safety law." },
+    { "title": "Environmental care", "text": "Responsible waste handling and clean-technology solutions that reduce emissions." }
+  ],
+  "quality": ["Tier-1 components", "Manufacturer-approved methods", "Inspection checkpoints", "Performance testing", "Certified handover", "Warranty management"],
+  "governance": [
+    { "title": "Governance", "text": "Clear scope, milestones, reporting and a single point of accountability throughout every contract." },
+    { "title": "Risk management", "text": "Proactive identification and mitigation of technical, supply and schedule risk." },
+    { "title": "Documentation", "text": "Completion certificates, as-built records, warranties and maintenance plans at handover." }
+  ],
+  "structure": {
+    "top": "Board and Managing Director",
+    "shared": "Group Operations · Finance · Procurement · HSE and QA",
+    "units": ["Donmac Energy", "Donmac ICT", "Donmac e-Mobility", "Donmac Specialized Sourcing"],
+    "note": "Group functions provide shared discipline and governance, while each business division owns its technical delivery and client outcomes."
+  },
+  "compliance": [
+    { "body": "PACRA", "item": "Certificate of Incorporation, Reg. No. 92563" },
+    { "body": "ZRA", "item": "Tax Clearance Certificate, TPIN 1002054382" },
+    { "body": "ZPPA", "item": "e-Tendering Registration" },
+    { "body": "NCC", "item": "Grade 4 contractor: Categories E (Electrical and Telecommunication), C (Civil Engineering), B (Building and Housing) and R (Roads and Earthworks)" },
+    { "body": "ERB", "item": "Energy Regulation Board standard licence (renewable energy equipment)" },
+    { "body": "EngRB", "item": "Engineering Registration Board practising licence" },
+    { "body": "ZICTA", "item": "Dealer's certificate for electronic communication equipment" },
+    { "body": "RTSA", "item": "Motor Dealer's Licence" },
+    { "body": "ICTAZ", "item": "Corporate member, ICT Association of Zambia" },
+    { "body": "NAPSA · NHIMA · WCFCB", "item": "Employer compliance and Workers' Compensation cover" },
+    { "body": "Lusaka City Council", "item": "Business levy, fire and health permits" },
+    { "body": "ZEMIA", "item": "Member of the Zambian Electric Mobility Innovation Alliance (ZEMIA)" }
+  ],
+  "selectedClients": ["Maamba Energy Limited", "Kabanga Lithium Project", "Levy Mwanawasa Medical University", "Chipili Town Council"],
+  "ictReferences": ["Civil Aviation Authority", "Zambia Public Procurement Authority", "Levy Mwanawasa Medical University", "Family Health International (FHI 360)", "National Road Fund Agency", "Office of the Auditor General", "Electoral Commission of Zambia", "Ministry of Home Affairs and Internal Security", "Chainama Hospital", "Ministry of Agriculture", "National Prosecution Authority"],
+  "outlook": [
+    { "unit": "Energy", "title": "Scaling solar and storage", "text": "Larger C&I and utility-scale plants, mini-grids and battery storage for industry and communities." },
+    { "unit": "Digital", "title": "Enabling transformation", "text": "Expanding cybersecurity, cloud and enterprise systems for public and private clients." },
+    { "unit": "Mobility", "title": "Building EV networks", "text": "Rolling out charging infrastructure and fleet electrification nationwide." },
+    { "unit": "Sourcing", "title": "Growing supply reach", "text": "Strengthening global procurement and logistics for energy, mining and industry." }
+  ]
+}

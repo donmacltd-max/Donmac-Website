@@ -1,0 +1,52 @@
+{
+  "slug": "chipili-civic-centre-health-posts",
+  "order": 4,
+  "featured": true,
+  "title": "Chipili civic centre and five rural health posts",
+  "client": "Chipili Town Council",
+  "unit": "energy",
+  "industry": "government",
+  "type": "Rural electrification",
+  "location": "Chipili District, Zambia",
+  "year": "2025",
+  "status": "Completed",
+  "summary": "Supply and installation of solar power at the Chipili civic centre and five rural health posts under the 2025 Constituency Development Fund (CDF).",
+  "specs": [
+    {
+      "label": "Sites",
+      "value": "6 (civic centre and 5 health posts)"
+    },
+    {
+      "label": "Funding",
+      "value": "Constituency Development Fund 2025"
+    },
+    {
+      "label": "Scope",
+      "value": "Supply and installation of solar power systems"
+    }
+  ],
+  "scope": [
+    "Supply of solar power systems for six sites",
+    "Installation at the civic centre",
+    "Installation at five rural health posts",
+    "Testing and handover"
+  ],
+  "challenge": "Rural health posts without reliable electricity struggle to provide lighting for night care, power for medical equipment and safe storage of medicines.",
+  "solution": "Donmac supplied and installed solar power systems across six council and health sites, bringing reliable electricity to facilities that previously lacked it.",
+  "outcomes": [
+    "Reliable electricity at five rural health posts",
+    "Solar power for the council's civic centre",
+    "Improved energy access for the communities served"
+  ],
+  "images": [],
+  "relatedServices": [
+    {
+      "label": "Rural electrification and mini-grids",
+      "href": "/energy#rural-electrification"
+    },
+    {
+      "label": "Hybrid solar and backup power",
+      "href": "/energy#hybrid-backup"
+    }
+  ]
+}

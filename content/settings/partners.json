@@ -1,0 +1,14 @@
+{
+  "authorised": [
+    { "name": "HP", "detail": "HP Business Partner, FY26 programme certificate" },
+    { "name": "Axiz", "detail": "Authorised registered reseller since 2020" },
+    { "name": "Thales (Gemalto)", "detail": "Authorised distributor, digital identity and security solutions" }
+  ],
+  "groups": [
+    { "title": "ICT and digital security", "brands": ["HP", "Dell", "Lenovo", "Microsoft", "Cisco", "Intel", "Epson", "Canon", "APC", "Eaton", "Kingston", "Kaspersky", "Hikvision", "Targus", "TP-Link", "Logitech", "Zebra", "Thales (Gemalto)"] },
+    { "title": "Renewable energy and power", "brands": ["Jinko Solar", "Deye", "Dyness", "LuxPower", "Must Power", "APC", "Eaton"] },
+    { "title": "Electric mobility", "brands": ["Geely", "Riddara (Geely Auto Group)", "Tinbot"] },
+    { "title": "Distribution channels", "brands": ["Axiz", "Tarsus Distribution"] }
+  ],
+  "note": "Brands under 'supplied and integrated' are products Donmac sources, installs and supports. Only the relationships listed as authorised are formal manufacturer or distributor accreditations."
+}

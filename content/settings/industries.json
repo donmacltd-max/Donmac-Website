@@ -1,0 +1,181 @@
+{
+  "items": [
+    {
+      "slug": "government",
+      "name": "Government and public institutions",
+      "short": "Government",
+      "icon": "government",
+      "challenge": "Public institutions need dependable power, secure ICT and transparent procurement that stands up to audit, often across multiple sites and tight budget cycles.",
+      "solutions": [
+        "ZPPA-registered supply of ICT equipment, software and licensing",
+        "Solar back-up and lighting for civic buildings",
+        "Digital identity and document authentication technology",
+        "Fleet electrification studies for public transport and service fleets"
+      ],
+      "units": [
+        "ict",
+        "energy",
+        "e-mobility",
+        "sourcing"
+      ],
+      "projects": [
+        "chipili-civic-centre-health-posts"
+      ]
+    },
+    {
+      "slug": "mining",
+      "name": "Mining and extractive industries",
+      "short": "Mining",
+      "icon": "mining",
+      "challenge": "Remote mine sites face expensive diesel, unstable grid supply and long lead times for critical equipment and spares.",
+      "solutions": [
+        "Hybrid solar PV and lithium storage to cut diesel use",
+        "Standby power for offices, camps and control rooms",
+        "Sourcing of mining equipment, consumables and heavy vehicles",
+        "Electric 4WD pickups and site charging"
+      ],
+      "units": [
+        "energy",
+        "sourcing",
+        "e-mobility"
+      ],
+      "projects": [
+        "kabanga-lithium-hybrid-solar",
+        "roma-guest-house-hybrid-backup"
+      ]
+    },
+    {
+      "slug": "agriculture",
+      "name": "Agriculture",
+      "short": "Agriculture",
+      "icon": "agriculture",
+      "challenge": "Farms and agro-processors need affordable water and power far from the grid, and protection from rising fuel costs.",
+      "solutions": [
+        "Solar water pumping for irrigation and livestock",
+        "Solar and storage for cold rooms and processing",
+        "Electric utility vehicles and motorcycles for farm logistics"
+      ],
+      "units": [
+        "energy",
+        "e-mobility",
+        "sourcing"
+      ],
+      "projects": []
+    },
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "short": "Manufacturing",
+      "icon": "factory",
+      "challenge": "Load-shedding and power quality problems interrupt production lines and damage equipment.",
+      "solutions": [
+        "Commercial and industrial solar PV with battery storage",
+        "Power distribution, protection and earthing upgrades",
+        "Industrial equipment and spares sourcing"
+      ],
+      "units": [
+        "energy",
+        "sourcing"
+      ],
+      "projects": []
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "short": "Healthcare",
+      "icon": "health",
+      "challenge": "Clinics and hospitals cannot afford power cuts: vaccines, theatres, lighting and records systems depend on uninterrupted supply.",
+      "solutions": [
+        "Solar electrification of rural health posts",
+        "Hybrid back-up for critical medical loads",
+        "ICT equipment and networks for health facilities"
+      ],
+      "units": [
+        "energy",
+        "ict"
+      ],
+      "projects": [
+        "chipili-civic-centre-health-posts"
+      ]
+    },
+    {
+      "slug": "education",
+      "name": "Education",
+      "short": "Education",
+      "icon": "education",
+      "challenge": "Universities and schools need safe, well-lit campuses, reliable power and modern ICT for teaching and administration.",
+      "solutions": [
+        "Solar street and car-park lighting",
+        "Campus solar PV and back-up power",
+        "Computers, networks and Wi-Fi for learning"
+      ],
+      "units": [
+        "energy",
+        "ict"
+      ],
+      "projects": [
+        "lmmu-solar-car-park-lighting",
+        "maamba-private-school-hybrid-solar"
+      ]
+    },
+    {
+      "slug": "commercial",
+      "name": "Commercial and industrial enterprises",
+      "short": "Commercial",
+      "icon": "building",
+      "challenge": "Businesses need to control energy costs, keep systems running and equip their people with reliable technology.",
+      "solutions": [
+        "Rooftop and ground-mount solar PV",
+        "Hybrid back-up for offices, hotels and retail",
+        "Enterprise ICT, cybersecurity and surveillance",
+        "Electric fleet vehicles and workplace charging"
+      ],
+      "units": [
+        "energy",
+        "ict",
+        "e-mobility"
+      ],
+      "projects": [
+        "roma-guest-house-hybrid-backup"
+      ]
+    },
+    {
+      "slug": "development",
+      "name": "Development organisations",
+      "short": "NGOs and donors",
+      "icon": "handshake",
+      "challenge": "Development programmes need a compliant local partner that can deliver measurable outcomes in rural and underserved areas.",
+      "solutions": [
+        "Rural electrification and mini-grids",
+        "Solar for health, water and education facilities",
+        "ICT procurement and deployment for programme offices"
+      ],
+      "units": [
+        "energy",
+        "ict",
+        "sourcing"
+      ],
+      "projects": [
+        "chipili-civic-centre-health-posts"
+      ]
+    },
+    {
+      "slug": "transport",
+      "name": "Transport and logistics",
+      "short": "Transport",
+      "icon": "truck",
+      "challenge": "Fleet operators face volatile fuel prices, high maintenance costs and growing pressure to cut emissions.",
+      "solutions": [
+        "Fleet electrification assessments and TCO modelling",
+        "Electric pickups, buses and commercial vehicles",
+        "Depot and route charging infrastructure",
+        "Heavy commercial vehicles and specialised trucks"
+      ],
+      "units": [
+        "e-mobility",
+        "sourcing"
+      ],
+      "projects": []
+    }
+  ]
+}
